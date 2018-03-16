@@ -1,9 +1,8 @@
 as yet unclassified
 timeItAndNotify: aBlock
-	"Executes a block and sends a notification to Discord with the returned value and execution time"
+	"Executes a block and sends a notification to Discord"
 	
-	| time res message |
+	| time res |
 	
 	time := [ res := aBlock value ] timeToRun.
-	message := self notificationAboutResult: res andTime: time.
-	self sendMessage: message.
+	self sendResult: res andTime: time andBlock: aBlock.

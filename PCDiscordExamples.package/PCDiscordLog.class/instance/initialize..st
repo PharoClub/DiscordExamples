@@ -1,4 +1,4 @@
 initialization
 initialize: url
 
-	webhookUrl := url.
+	webhook := url.

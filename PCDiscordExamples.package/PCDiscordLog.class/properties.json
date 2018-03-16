@@ -1,12 +1,12 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"super" : "Object",
 	"category" : "PCDiscordExamples",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"webhookUrl"
+		"webhook"
 	],
 	"name" : "PCDiscordLog",
 	"type" : "normal"
